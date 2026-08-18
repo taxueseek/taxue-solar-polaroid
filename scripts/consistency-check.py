@@ -62,9 +62,11 @@ def main():
             check((ROOT / "references" / ref).exists(),
                   f"{who} 引用了不存在的 references/{ref}")
 
-    # 3. README 引用的 assets 图片
+    # 3. README 引用的 assets / gallery 文件
     for asset in set(re.findall(r"\./(assets/readme/[\w\-.]+\.svg)", README)):
         check((ROOT / asset).exists(), f"README 引用了不存在的 {asset}")
+    for img in set(re.findall(r"\./(gallery/[\w\-.]+\.(?:jpg|png|jpeg))\)", README)):
+        check((ROOT / img).exists(), f"README 引用了不存在的 {img}")
 
     # 4. templates
     check((ROOT / "templates" / "taxue-solar-polaroid.txt").exists(),

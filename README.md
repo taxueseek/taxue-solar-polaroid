@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="#成图">成图</a> ·
   <a href="#不把节气翻译成一片叶子">理念</a> ·
   <a href="#四种模式">模式</a> ·
   <a href="#二十四节气物候线索">物候</a> ·
@@ -16,6 +17,20 @@
 # 踏雪节气拍立得
 
 输入「冬至」「春去秋来」「一场雨之后」，输出一张有**事实证据、自然文案、原创空间逻辑**的编辑视觉提示词。不把节气翻译成一片固定叶子。
+
+## 成图
+
+样张均为混合模式出图，未加署名标记。点图看原图。
+
+![立春 · 混合模式（无署名标记样张）](./gallery/lichun-hybrid-no-mark.jpg)
+
+![大雪 · 混合模式（无署名标记测试样张）](./gallery/daxue-no-mark-test.jpg)
+
+<p align="center">
+<a href="./gallery/lichun-hybrid-no-mark.jpg">立春</a> ·
+<a href="./gallery/daxue-no-mark-test.jpg">大雪</a> ·
+<a href="./gallery/README.md">全部原图</a>
+</p>
 
 ## 不把节气翻译成一片叶子
 
@@ -96,6 +111,7 @@
 taxue-solar-polaroid/
 ├── README.md                  # 本介绍页
 ├── SKILL.md                   # 技能本体：原则、工作流、交付标准
+├── gallery/                   # 成图样张（立春、大雪，点图看原图）
 ├── references/
 │   ├── dynamic-creative-router.md     # 开放式创作路由：七项推演卡与形态选择
 │   ├── dual-layer-routing.md          # 双层路由：开放层 × 纸本档案结构母版
