@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" font-family="-apple-system, 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif">
+  <!-- 背景 -->
+  <rect x="0" y="0" width="1200" height="260" fill="#F8F5EC"/>
+
+  <!-- 节点 1：主题输入 -->
+  <g>
+    <rect x="30" y="70" width="180" height="120" rx="6" fill="#FFFFFF" stroke="#2B2B28" stroke-width="1.6"/>
+    <text x="120" y="108" font-size="17" font-weight="600" fill="#2B2B28" text-anchor="middle">主题输入</text>
+    <text x="120" y="134" font-size="13" fill="#57534B" text-anchor="middle">「处暑」「春去秋来」</text>
+    <text x="120" y="154" font-size="13" fill="#57534B" text-anchor="middle">「雨后的傍晚」</text>
+    <text x="120" y="176" font-size="12" fill="#8B8572" text-anchor="middle">节气 / 短句 / 地点 / 记忆</text>
+  </g>
+
+  <!-- 箭头 1 -->
+  <path d="M216 130 L258 130" stroke="#8B8572" stroke-width="1.6" fill="none"/>
+  <path d="M256 124 L266 130 L256 136 z" fill="#8B8572"/>
+
+  <!-- 节点 2：创作推演卡 -->
+  <g>
+    <rect x="272" y="70" width="190" height="120" rx="6" fill="#FFFFFF" stroke="#2B2B28" stroke-width="1.6"/>
+    <text x="367" y="104" font-size="17" font-weight="600" fill="#2B2B28" text-anchor="middle">创作推演卡</text>
+    <text x="367" y="130" font-size="13" fill="#57534B" text-anchor="middle">主题核 · 事实证据</text>
+    <text x="367" y="150" font-size="13" fill="#57534B" text-anchor="middle">张力对 · 核心形态</text>
+    <text x="367" y="170" font-size="13" fill="#57534B" text-anchor="middle">空间 · 材料 · 文案语气</text>
+  </g>
+
+  <!-- 箭头 2 -->
+  <path d="M468 130 L510 130" stroke="#8B8572" stroke-width="1.6" fill="none"/>
+  <path d="M508 124 L518 130 L508 136 z" fill="#8B8572"/>
+
+  <!-- 节点 3：路由选择 -->
+  <g>
+    <rect x="524" y="70" width="190" height="120" rx="6" fill="#FFFFFF" stroke="#2B2B28" stroke-width="1.6"/>
+    <text x="619" y="104" font-size="17" font-weight="600" fill="#2B2B28" text-anchor="middle">路由选择</text>
+    <text x="619" y="132" font-size="13" fill="#57534B" text-anchor="middle">混合（默认）</text>
+    <text x="619" y="152" font-size="13" fill="#57534B" text-anchor="middle">开放 / 固定框架</text>
+    <text x="619" y="172" font-size="13" fill="#57534B" text-anchor="middle">摄影</text>
+  </g>
+
+  <!-- 箭头 3 -->
+  <path d="M720 130 L762 130" stroke="#8B8572" stroke-width="1.6" fill="none"/>
+  <path d="M760 124 L770 130 L760 136 z" fill="#8B8572"/>
+
+  <!-- 节点 4：编译提示词 -->
+  <g>
+    <rect x="776" y="70" width="190" height="120" rx="6" fill="#FFFFFF" stroke="#2B2B28" stroke-width="1.6"/>
+    <text x="871" y="104" font-size="17" font-weight="600" fill="#2B2B28" text-anchor="middle">编译提示词</text>
+    <text x="871" y="132" font-size="13" fill="#57534B" text-anchor="middle">命题 → 事实 → 动词</text>
+    <text x="871" y="152" font-size="13" fill="#57534B" text-anchor="middle">空间 → 色彩 → 文字</text>
+    <text x="871" y="172" font-size="13" fill="#57534B" text-anchor="middle">约束</text>
+  </g>
+
+  <!-- 箭头 4 -->
+  <path d="M972 130 L1014 130" stroke="#8B8572" stroke-width="1.6" fill="none"/>
+  <path d="M1012 124 L1022 130 L1012 136 z" fill="#8B8572"/>
+
+  <!-- 节点 5：交付与迭代 -->
+  <g>
+    <rect x="1028" y="70" width="150" height="120" rx="6" fill="#2B2B28"/>
+    <text x="1103" y="108" font-size="17" font-weight="600" fill="#F8F5EC" text-anchor="middle">交付与迭代</text>
+    <text x="1103" y="134" font-size="12.5" fill="#D8D0BC" text-anchor="middle">推演 · 方案 · 提示词</text>
+    <text x="1103" y="154" font-size="12.5" fill="#D8D0BC" text-anchor="middle">真实性说明</text>
+    <text x="1103" y="176" font-size="12.5" fill="#D8D0BC" text-anchor="middle">下一轮只改一项</text>
+  </g>
+
+  <!-- 底部循环回线：交付回到推演 -->
+  <path d="M1103 190 L1103 226 L120 226 L120 194" stroke="#8B8572" stroke-width="1.4" fill="none" stroke-dasharray="5 5"/>
+  <path d="M114 196 L120 188 L126 196" stroke="#8B8572" stroke-width="1.4" fill="none"/>
+  <text x="600" y="244" font-size="13" fill="#8B8572" text-anchor="middle">用户反馈「太像模板」「不真实」时，定位失效的那一层，只替换这一层</text>
+</svg>
