@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="踏雪节气拍立得：给一个主题，它把画面和场景推出来">
+  <img src="./assets/readme/hero.jpg" width="100%" alt="踏雪节气拍立得：给一个主题，它把画面和场景推出来。右侧为立春、元宵成图。">
 </p>
 
 <p align="center">
