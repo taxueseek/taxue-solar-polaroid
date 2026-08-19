@@ -13,17 +13,6 @@
 
 # 踏雪节气拍立得
 
-给一个主题。立春、元宵，或者一场雨之后。它先想这个场景里该留下什么，再写成能直接出图的提示词。
-
-<p align="center">
-  <img src="./assets/readme/hero-pair.jpg" width="100%" alt="立春：冻土裂开，裂缝里冒出一点绿。元宵：灯纸还热，汤还没凉。">
-</p>
-
-<p align="center">
-<a href="./gallery/lichun-hybrid-no-mark.jpg">立春</a> ·
-<a href="./gallery/yuanxiao-hybrid.jpg">元宵</a>
-</p>
-
 ## 成图
 
 下面是两组成图。远看像同一套纸页，近看每张的窗口和字都不一样。点题名看原图。
@@ -131,7 +120,7 @@ taxue-solar-polaroid/
 ├── gallery/              # 节气八张、节日六张
 ├── references/           # 推演、双层路由、物候库
 ├── templates/
-├── assets/readme/        # 标题带、立春元宵对页、节气墙、节日墙、流程
+├── assets/readme/        # 5:2 头图、节气墙、节日墙、流程
 └── scripts/              # 只读一致性检查
 ```
 
