@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="踏雪节气拍立得：输入一个节气、节日或短句，编译成有事实证据和自然文案的编辑视觉">
+  <img src="./assets/readme/hero.svg" width="100%" alt="踏雪节气拍立得：给一个主题，它把画面和场景推出来">
 </p>
 
 <p align="center">
@@ -13,11 +13,20 @@
 
 # 踏雪节气拍立得
 
-输入「冬至」「七夕」「一场雨之后」，输出一张有**事实证据、自然文案、原创空间逻辑**的编辑视觉提示词。不把节气翻译成一片固定叶子，也不把节日翻译成固定典故。
+给一个主题。立春、元宵，或者一场雨之后。它先想这个场景里该留下什么，再写成能直接出图的提示词。
+
+<p align="center">
+  <img src="./assets/readme/hero-pair.jpg" width="100%" alt="立春：冻土裂开，裂缝里冒出一点绿。元宵：灯纸还热，汤还没凉。">
+</p>
+
+<p align="center">
+<a href="./gallery/lichun-hybrid-no-mark.jpg">立春</a> ·
+<a href="./gallery/yuanxiao-hybrid.jpg">元宵</a>
+</p>
 
 ## 成图
 
-两组都是混合模式。远看是同一套纸本档案秩序，近看每张的形态、窗口和文案都来自自己的主题。点题名看原图。
+下面是两组成图。远看像同一套纸页，近看每张的窗口和字都不一样。点题名看原图。
 
 ### 节气
 
@@ -108,7 +117,7 @@ npx skills add taxueseek/taxue-solar-polaroid
 
 装好后直接说：
 
-- 「冬至」　「处暑」　「七夕」　「中秋」　「春去秋来」
+- 「立春」　「元宵」　「一场雨之后」　「冬至」　「春去秋来」
 - 「用纸本档案的感觉做一张谷雨海报」
 - 「立夏，四张，一组杂志内页」
 - 「雨后的傍晚，落地窗，拍立得感觉」
@@ -122,7 +131,7 @@ taxue-solar-polaroid/
 ├── gallery/              # 节气八张、节日六张
 ├── references/           # 推演、双层路由、物候库
 ├── templates/
-├── assets/readme/        # 标题带、节气墙、节日墙、流程
+├── assets/readme/        # 标题带、立春元宵对页、节气墙、节日墙、流程
 └── scripts/              # 只读一致性检查
 ```
 

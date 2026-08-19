@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
   <title id="title">踏雪节气拍立得</title>
-  <desc id="desc">输入一个节气、节日或短句，编译成有事实证据和自然文案的编辑视觉。</desc>
+  <desc id="desc">给一个主题，它把这个主题该有的画面和场景推出来。</desc>
 
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
@@ -9,42 +9,15 @@
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="340" rx="26" fill="url(#paper)"/>
+  <rect width="1200" height="260" rx="26" fill="url(#paper)"/>
   <g stroke="#D4CBB8" stroke-width="1" opacity="0.7">
-    <line x1="0" y1="72" x2="1200" y2="76"/>
-    <line x1="0" y1="268" x2="1200" y2="264"/>
+    <line x1="0" y1="56" x2="1200" y2="58"/>
+    <line x1="0" y1="204" x2="1200" y2="202"/>
   </g>
 
-  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans SC', 'Segoe UI', sans-serif" fill="#2B2B28">
-    <text x="56" y="78" font-size="14" letter-spacing="4" fill="#8B8572">节气 · 节日 · 短句</text>
-    <text x="56" y="148" font-size="46" font-weight="600" letter-spacing="4" font-family="Songti SC, STSong, 'Songti SC', Georgia, serif">踏雪节气拍立得</text>
-    <text x="56" y="198" font-size="20" fill="#3F3C36">输入一个节气、节日或短句</text>
-    <text x="56" y="230" font-size="20" fill="#3F3C36">编译成有证据的编辑视觉，不翻译成一片叶子</text>
-    <text x="56" y="286" font-size="13" letter-spacing="3" fill="#8B8572">TAXUE SOLAR POLAROID</text>
-  </g>
-
-  <!-- 右栏：档案卡 + 三种越界形态，对应本项目的系列秩序 -->
-  <g transform="translate(732 48)">
-    <rect x="18" y="18" width="196" height="248" rx="4" fill="#EFE9DC" stroke="#C9C0AC" stroke-width="1"/>
-    <rect x="0" y="0" width="200" height="252" rx="4" fill="#F8F5EC" stroke="#C9C0AC" stroke-width="1.2"/>
-    <rect x="22" y="28" width="156" height="132" rx="3" fill="#F1EDE2" stroke="#D8D0BC"/>
-    <!-- 冰裂 -->
-    <path d="M100 28 L92 72 L108 110 L98 160" fill="none" stroke="#2B2B28" stroke-width="2.2"/>
-    <path d="M92 72 L78 86" fill="none" stroke="#2B2B28" stroke-width="1.4"/>
-    <text x="22" y="186" font-size="13" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">立春</text>
-    <text x="22" y="208" font-size="12" fill="#57534B" font-family="-apple-system, 'PingFang SC', sans-serif">裂缝见绿</text>
-    <text x="22" y="232" font-size="11" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">节气</text>
-  </g>
-
-  <g transform="translate(948 78)">
-    <rect x="0" y="0" width="164" height="214" rx="4" fill="#F8F5EC" stroke="#C9C0AC" stroke-width="1.2"/>
-    <rect x="18" y="22" width="128" height="108" rx="3" fill="#2B2B28"/>
-    <!-- 一线 -->
-    <line x1="-8" y1="78" x2="176" y2="92" stroke="#D8D0BC" stroke-width="1.4"/>
-    <circle cx="52" cy="70" r="2.2" fill="#F8F5EC"/>
-    <circle cx="108" cy="86" r="1.6" fill="#F8F5EC"/>
-    <text x="18" y="156" font-size="13" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">七夕</text>
-    <text x="18" y="178" font-size="12" fill="#57534B" font-family="-apple-system, 'PingFang SC', sans-serif">一线还在</text>
-    <text x="18" y="200" font-size="11" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">节日</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans SC', 'Segoe UI', sans-serif" fill="#2B2B28" text-anchor="middle">
+    <text x="600" y="88" font-size="14" letter-spacing="5" fill="#8B8572">节气 · 节日 · 短句</text>
+    <text x="600" y="148" font-size="46" font-weight="600" letter-spacing="6" font-family="Songti SC, STSong, 'Songti SC', Georgia, serif">踏雪节气拍立得</text>
+    <text x="600" y="190" font-size="20" fill="#3F3C36">给一个主题，它把画面和场景推出来</text>
   </g>
 </svg>
