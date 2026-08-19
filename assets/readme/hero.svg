@@ -1,49 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" font-family="-apple-system, 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif">
-  <!-- 外部底纸 -->
-  <rect x="0" y="0" width="600" height="800" fill="#E7E1D5"/>
-  <!-- 底纸纹理线 -->
-  <g stroke="#DDD5C5" stroke-width="1" opacity="0.6">
-    <line x1="0" y1="180" x2="600" y2="182"/>
-    <line x1="0" y1="640" x2="600" y2="638"/>
-    <line x1="0" y1="700" x2="600" y2="702"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">踏雪节气拍立得</title>
+  <desc id="desc">输入一个节气、节日或短句，编译成有事实证据和自然文案的编辑视觉。</desc>
+
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDE7DA"/>
+      <stop offset="1" stop-color="#E3DCCE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="340" rx="26" fill="url(#paper)"/>
+  <g stroke="#D4CBB8" stroke-width="1" opacity="0.7">
+    <line x1="0" y1="72" x2="1200" y2="76"/>
+    <line x1="0" y1="268" x2="1200" y2="264"/>
   </g>
 
-  <!-- 档案卡（下层偏移，体现纸本层叠） -->
-  <rect x="96" y="92" width="420" height="610" rx="4" fill="#EFE9DC" stroke="#C9C0AC" stroke-width="1"/>
-  <!-- 档案卡（主卡） -->
-  <rect x="72" y="72" width="432" height="628" rx="4" fill="#F8F5EC" stroke="#C9C0AC" stroke-width="1.2"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans SC', 'Segoe UI', sans-serif" fill="#2B2B28">
+    <text x="56" y="78" font-size="14" letter-spacing="4" fill="#8B8572">节气 · 节日 · 短句</text>
+    <text x="56" y="148" font-size="46" font-weight="600" letter-spacing="4" font-family="Songti SC, STSong, 'Songti SC', Georgia, serif">踏雪节气拍立得</text>
+    <text x="56" y="198" font-size="20" fill="#3F3C36">输入一个节气、节日或短句</text>
+    <text x="56" y="230" font-size="20" fill="#3F3C36">编译成有证据的编辑视觉，不翻译成一片叶子</text>
+    <text x="56" y="286" font-size="13" letter-spacing="3" fill="#8B8572">TAXUE SOLAR POLAROID</text>
+  </g>
 
-  <!-- 卡片内印刷窗口 -->
-  <rect x="112" y="130" width="352" height="400" rx="3" fill="#F1EDE2" stroke="#D8D0BC" stroke-width="1"/>
+  <!-- 右栏：档案卡 + 三种越界形态，对应本项目的系列秩序 -->
+  <g transform="translate(732 48)">
+    <rect x="18" y="18" width="196" height="248" rx="4" fill="#EFE9DC" stroke="#C9C0AC" stroke-width="1"/>
+    <rect x="0" y="0" width="200" height="252" rx="4" fill="#F8F5EC" stroke="#C9C0AC" stroke-width="1.2"/>
+    <rect x="22" y="28" width="156" height="132" rx="3" fill="#F1EDE2" stroke="#D8D0BC"/>
+    <!-- 冰裂 -->
+    <path d="M100 28 L92 72 L108 110 L98 160" fill="none" stroke="#2B2B28" stroke-width="2.2"/>
+    <path d="M92 72 L78 86" fill="none" stroke="#2B2B28" stroke-width="1.4"/>
+    <text x="22" y="186" font-size="13" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">立春</text>
+    <text x="22" y="208" font-size="12" fill="#57534B" font-family="-apple-system, 'PingFang SC', sans-serif">裂缝见绿</text>
+    <text x="22" y="232" font-size="11" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">节气</text>
+  </g>
 
-  <!-- 越界核心形态：从窗口右下越出的墨色日轮 + 卷边 -->
-  <circle cx="398" cy="352" r="112" fill="#2B2B28"/>
-  <circle cx="398" cy="352" r="112" fill="none" stroke="#2B2B28" stroke-width="0" opacity="0"/>
-  <!-- 日轮下缘淡出，形成“退去” -->
-  <path d="M286 352 a112 112 0 0 0 224 0 l0 12 a112 112 0 0 1 -224 0 z" fill="#3A3A35"/>
-  <!-- 卷边叶子：从窗口下缘越出的单叶形 -->
-  <path d="M300 528 q40 -26 96 -10 q-6 34 -52 42 q-40 6 -44 -32 z" fill="#4A4A42" opacity="0.92"/>
-  <path d="M306 524 q34 -18 80 -8" stroke="#8B8572" stroke-width="1.4" fill="none"/>
-  <!-- 残留水珠 -->
-  <circle cx="368" cy="552" r="5" fill="#6E6A5C"/>
-  <circle cx="384" cy="546" r="3.2" fill="#7A7566"/>
-  <!-- 水痕边界 -->
-  <path d="M112 530 q88 -10 176 0 q88 10 176 0" stroke="#C2B9A2" stroke-width="1" fill="none" stroke-dasharray="3 5"/>
-
-  <!-- 顶部标签 -->
-  <text x="112" y="106" font-size="12" letter-spacing="3" fill="#8B8572">节气 · 季节 · 编辑视觉</text>
-  <line x1="112" y1="114" x2="464" y2="114" stroke="#D8D0BC" stroke-width="1"/>
-
-  <!-- 画内文字：标题 -->
-  <text x="112" y="582" font-size="44" font-weight="600" fill="#2B2B28" letter-spacing="10">处暑</text>
-  <!-- 自然文案 -->
-  <text x="112" y="616" font-size="16" fill="#57534B">卷边的叶子开始变干</text>
-  <!-- 元数据（索引式记录） -->
-  <text x="112" y="648" font-size="12" fill="#8B8572" letter-spacing="1">湿度留下的边界 · 午后 · 3:4 纸本档案</text>
-
-  <!-- 页外署名 -->
-  <text x="464" y="684" font-size="12" fill="#8B8572" text-anchor="end" letter-spacing="2">踏雪寻仙</text>
-
-  <!-- 底部品牌行 -->
-  <text x="300" y="762" font-size="13" fill="#6E6A5C" text-anchor="middle" letter-spacing="6">TAXUE SOLAR POLAROID</text>
+  <g transform="translate(948 78)">
+    <rect x="0" y="0" width="164" height="214" rx="4" fill="#F8F5EC" stroke="#C9C0AC" stroke-width="1.2"/>
+    <rect x="18" y="22" width="128" height="108" rx="3" fill="#2B2B28"/>
+    <!-- 一线 -->
+    <line x1="-8" y1="78" x2="176" y2="92" stroke="#D8D0BC" stroke-width="1.4"/>
+    <circle cx="52" cy="70" r="2.2" fill="#F8F5EC"/>
+    <circle cx="108" cy="86" r="1.6" fill="#F8F5EC"/>
+    <text x="18" y="156" font-size="13" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">七夕</text>
+    <text x="18" y="178" font-size="12" fill="#57534B" font-family="-apple-system, 'PingFang SC', sans-serif">一线还在</text>
+    <text x="18" y="200" font-size="11" fill="#8B8572" font-family="-apple-system, 'PingFang SC', sans-serif">节日</text>
+  </g>
 </svg>
