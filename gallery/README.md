@@ -36,7 +36,7 @@
 
 ### 大雪
 
-![大雪 · 混合模式](./daxue-no-mark-test.jpg)
+![大雪 · 混合模式](./daxue-hybrid-no-mark.jpg)
 
 ## 节日
 
