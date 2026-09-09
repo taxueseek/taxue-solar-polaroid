@@ -23,8 +23,9 @@ Part of the taxue image-generation series — pick the right engine:
 | Skill | One-liner | Repo |
 |---|---|---|
 | **Taxue Creative Style** (image style engine) | 14 families, 77 variants: render by style, refine prompts, write from scratch, remember preferences | [taxue-creative-style](https://github.com/taxueseek/taxue-creative-style) |
-| **Halftone Poster** (print-feel engine) | 11 styles + 1 variant: a phrase, theme, or photo becomes a print-feel cover | [taxue-halftone](https://github.com/taxueseek/taxue-halftone) |
+| **Halftone Poster** (print-feel engine) | 12 styles + 2 variants: a phrase, theme, or photo becomes a print-feel cover | [taxue-halftone](https://github.com/taxueseek/taxue-halftone) |
 | **Solar Polaroid** (seasonal creation engine) | Solar terms, festivals, phenology phrases become memorable posters, paper archives, polaroids | **You are here** · [taxue-solar-polaroid](https://github.com/taxueseek/taxue-solar-polaroid) |
+| **taxue-imagegen** (meta-prompt library) | Four types + four workflows + mechanical slot fill + one-shot verify | WorkBuddy-exclusive · [taxue-imagegen](https://github.com/taxueseek/taxue-imagegen) |
 
 A prompt skill for the 24 solar terms and festivals: turn a solar term, a seasonal phrase, or a place-bound memory into an original editorial visual with real evidence, natural Chinese copy, and its own spatial logic.
 
